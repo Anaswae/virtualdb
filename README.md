@@ -53,6 +53,7 @@ Cara mengimplementasi program ini yaitu :<br>
   fclose($fh); // langsung close karena item pada column (Hacker Tampan Berhasil Transgender) tidak menampung data lagi.
   ?>
   ```
-5. Anda ingin menghapus table,column,item pada virtualdb? Lebih baik gunakan VirtualDB Manager (/virtualdb/index.php)<br>
+5. Anda ingin menghapus table,column,item pada virtualdb?<br>
+Lebih baik gunakan VirtualDB Manager (/virtualdb/index.php)<br>
 <br>
 Copyright &copy 2019 FilthyRoot@socyte.space
