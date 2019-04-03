@@ -58,5 +58,5 @@ Cara mengimplementasi program ini yaitu :<br>
 Lebih baik gunakan VirtualDB Manager (/virtualdb/index.php)<br>
 <br><br>
 Screenshot :<br>
-<img src='vdb.png' style='width:500px;'><br>
-Copyright &copy 2019 FilthyRoot@socyte.space
+<img src='vdb.png' style='width:500px;'><br><br>
+Copyright (c) 2019 FilthyRoot@socyte.space
