@@ -1,12 +1,12 @@
 # Virtual Database 
 Virtual Database yaitu program database virtual pengganti MySQL<br>
 Implementasi program ini mirip dengan MySQL tetapi agak berbeda<br><br>
-Cara mengimplementasi program ini yaitu :
-<pre>
-1. Lakukan include pada file virtualdb/config.php ke dalam project anda.
-2. Misal anda ingin membuat table, anda bisa menggunakan VirtualDB Manager (virtualdb/index.php)
-   atau anda juga bisa langsung membuat pada project anda dengan cara :
+Cara mengimplementasi program ini yaitu :<br>
+1. Lakukan include pada file virtualdb/config.php ke dalam project anda.<br>
+2. Misal anda ingin membuat table, anda bisa menggunakan VirtualDB Manager (virtualdb/index.php)<br>
+   atau anda juga bisa langsung membuat pada project anda dengan cara :<br>
    
+   ```
    <?php
    //Contoh membuat table berita
    include 'virtualdb/config.php' //include config virtualdb
@@ -18,9 +18,10 @@ Cara mengimplementasi program ini yaitu :
    fwrite($fh,"\n");
    fclose($fh);
    ?>
-   
-3. Misal anda ingin membuat column pada table berita yang sudah dibuat, caranya seperti ini :
+   ```
 
+3. Misal anda ingin membuat column pada table berita yang sudah dibuat, caranya seperti ini :<br>
+```
   <?php
   //membuat column judul,images,author pada table berita yang sudah dibuat tadi
   include 'virtualdb/config.php';
@@ -40,10 +41,10 @@ Cara mengimplementasi program ini yaitu :
   fwrite($fh,"\n");
   fclose($fh);
   ?>
-  
-4. Misal anda ingin menulis data pada column, anda bisa melakukan seperti ini :
+  ```
+4. Misal anda ingin menulis data pada column, anda bisa melakukan seperti ini :<br>
 
-  <?php
+  ```<?php
   //menulis data ke dalam column 
   //in this case, misal kita ingin menulis 'Hacker Tampan Berhasil Transgender' kedalam $db['virtual_db']['berita']['judul']
   //mulai menulis data
@@ -51,8 +52,7 @@ Cara mengimplementasi program ini yaitu :
   fwrite($fh,'array_push($db[\''.$database_id.'\'][\'berita\'][\'judul\'],\'Hacker Tampan Berhasil Transgender\');'); //menulis
   fclose($fh); // langsung close karena item pada column (Hacker Tampan Berhasil Transgender) tidak menampung data lagi.
   ?>
-
-5. Anda ingin menghapus table,column,item pada virtualdb? Lebih baik gunakan VirtualDB Manager (/virtualdb/index.php)
-</pre>
+  ```
+5. Anda ingin menghapus table,column,item pada virtualdb? Lebih baik gunakan VirtualDB Manager (/virtualdb/index.php)<br>
 <br>
 Copyright &copy 2019 FilthyRoot@socyte.space
