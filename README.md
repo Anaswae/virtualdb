@@ -44,7 +44,8 @@ Cara mengimplementasi program ini yaitu :<br>
   ```
 4. Misal anda ingin menulis data pada column, anda bisa melakukan seperti ini :<br>
 
-  ```<?php
+  ```
+  <?php
   //menulis data ke dalam column 
   //in this case, misal kita ingin menulis 'Hacker Tampan Berhasil Transgender' kedalam $db['virtual_db']['berita']['judul']
   //mulai menulis data
